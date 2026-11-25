@@ -1,0 +1,63 @@
+sample_id,cohort,label,subtype,source
+11,external,1,PCP,independent collection batch
+22,external,0,ACP,independent collection batch
+30,external,0,ACP,independent collection batch
+35,external,0,ACP,independent collection batch
+53,external,0,ACP,independent collection batch
+67,external,0,ACP,independent collection batch
+9,test,1,PCP,in-house cohort
+36,test,1,PCP,in-house cohort
+41,test,1,PCP,in-house cohort
+48,test,0,ACP,in-house cohort
+49,test,1,PCP,in-house cohort
+50,test,0,ACP,in-house cohort
+51,test,0,ACP,in-house cohort
+52,test,0,ACP,in-house cohort
+54,test,0,ACP,in-house cohort
+1,train,1,PCP,in-house cohort
+2,train,0,ACP,in-house cohort
+3,train,1,PCP,in-house cohort
+4,train,0,ACP,in-house cohort
+5,train,1,PCP,in-house cohort
+6,train,0,ACP,in-house cohort
+7,train,1,PCP,in-house cohort
+8,train,0,ACP,in-house cohort
+10,train,1,PCP,in-house cohort
+13,train,0,ACP,in-house cohort
+14,train,1,PCP,in-house cohort
+15,train,1,PCP,in-house cohort
+16,train,0,ACP,in-house cohort
+17,train,0,ACP,in-house cohort
+18,train,0,ACP,in-house cohort
+19,train,0,ACP,in-house cohort
+20,train,1,PCP,in-house cohort
+21,train,0,ACP,in-house cohort
+23,train,1,PCP,in-house cohort
+24,train,0,ACP,in-house cohort
+25,train,1,PCP,in-house cohort
+26,train,0,ACP,in-house cohort
+27,train,0,ACP,in-house cohort
+28,train,0,ACP,in-house cohort
+29,train,0,ACP,in-house cohort
+31,train,1,PCP,in-house cohort
+32,train,0,ACP,in-house cohort
+33,train,0,ACP,in-house cohort
+34,train,1,PCP,in-house cohort
+37,train,0,ACP,in-house cohort
+39,train,0,ACP,in-house cohort
+40,train,0,ACP,in-house cohort
+42,train,0,ACP,in-house cohort
+43,train,0,ACP,in-house cohort
+44,train,0,ACP,in-house cohort
+45,train,0,ACP,in-house cohort
+46,train,0,ACP,in-house cohort
+47,train,0,ACP,in-house cohort
+55,validation,0,ACP,in-house cohort
+56,validation,0,ACP,in-house cohort
+57,validation,1,PCP,in-house cohort
+60,validation,0,ACP,in-house cohort
+62,validation,0,ACP,in-house cohort
+63,validation,0,ACP,in-house cohort
+65,validation,1,PCP,in-house cohort
+69,validation,0,ACP,in-house cohort
+70,validation,0,ACP,in-house cohort

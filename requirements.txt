@@ -1,0 +1,10 @@
+# Python dependencies for the CSF SERSome classification pipeline.
+# Tested with Python 3.9 and the versions below.
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+scikit-learn>=1.1
+torch>=1.13
+shap>=0.41
+matplotlib>=3.5
+jupyterlab>=3.4
