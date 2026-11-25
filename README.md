@@ -51,30 +51,6 @@ python src/train_cnn.py --npz ../sersome.npz --out models/cnn_cp_subtyping.pt
 python src/shap_analysis.py --npz ../sersome.npz --model models/cnn_cp_subtyping.pt
 ```
 
-The assembled tensor is about 90 MB and is written outside the repository
-(`../sersome.npz`) on purpose, so that only source code is committed.
-
-## Verified reproduction
-
-`src/predict.py` with the released weights:
-
-| Cohort | Samples | Correct |
-| --- | --- | --- |
-| Internal test set | 9 | 8 |
-| External cohort (independent collection batch) | 6 | 6 |
-| **Total** | **15** | **14 (93.3 %)** |
-
-Sensitivity for PCP 4/5, specificity for ACP 10/10, matching the confusion matrix
-of Figure 4D. Baseline correction and cosmic-ray removal were applied in LabSpec 6
-before export, so the `.txt` files are the starting point of this repository.
-
-## Cohort definition
-
-`data/sample_labels.csv` lists each sample with an anonymised `sample_id`, the cohort
-(`train` 38 / `validation` 9 / `test` 9 / `external` 6) and the label
-(`0 = ACP`, `1 = PCP`). Identifiers are study numbers only and carry no personal
-information.
-
 ## Citation and licence
 
 Cite the manuscript (TODO: authors, title, journal, DOI) and the archived release
